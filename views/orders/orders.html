@@ -1,0 +1,19 @@
+<div class="container-fluid container-md container-min-height">
+    
+    <div class="card my-4">
+        <h2 class="h1 my-5 text-center card-body">Pending Orders</h2>
+    </div>
+
+    <order ng-repeat="currentorder in (pendingOrders = (orders.orderlist | filter: { paid: false }))" currentorder="currentorder" pay-for-order="orders.payForOrder(orderid)"></order>
+
+    <p class="text-center h2 my-5" ng-if="!pendingOrders.length">None Available</p>
+
+    <div class="card my-4">
+        <h2 class="h1 my-5 text-center card-body">Fulfilled Orders</h2>
+    </div>
+
+    <order ng-repeat="currentorder in (fulfilledOrders = (orders.orderlist | filter: { paid: true }))" currentorder="currentorder"></order>
+
+    <p class="text-center h2 my-5" ng-if="!fulfilledOrders.length">None Available</p>
+</div>
+

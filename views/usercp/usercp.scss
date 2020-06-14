@@ -1,0 +1,37 @@
+.usercp-container{
+    background-color: #F9F9F9;
+    box-sizing: border-box;
+}
+
+.usercp-actions{
+    max-width: 576px;
+    margin: 0 auto;
+}
+
+
+@media(min-width: 576px){
+
+    .btn-add, .btn-logout, .btn-check-orders {
+        max-width: 30%;
+    }
+
+}
+
+.btn-delete, .btn-logout, .btn-check-orders, .btn-add {
+    height: 35px;
+    width: 200px;
+}
+
+.usercp-heading{
+    padding: 10px 0px;
+}
+
+.ng-scope-margin-fix{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 1rem;
+}
+
+.existing-address-container{
+    margin-bottom: 20px;
+}

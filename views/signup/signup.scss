@@ -1,0 +1,19 @@
+.signup-wrapper{
+    background-color: #F9F9F9;
+    text-align: center;
+
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.signup-section{
+    display: flex;
+    flex-direction: column;
+
+    & > * {
+        margin-bottom: 15px;
+    }
+}
+
+.btn-signup{
+    padding: 10px 0;
+}

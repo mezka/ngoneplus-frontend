@@ -1,0 +1,33 @@
+.order-title-row{
+    background-color: #F6F6F6;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+
+    color: #555555;
+
+    h3{
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+}
+
+.btn-pay-order{
+    width: 100%;
+}
+
+.order-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.order-image {
+    max-height: 200px;
+}
+
+.strikethrough{
+    text-decoration: line-through;
+}
